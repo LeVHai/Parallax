@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/primeflex@latest/primeflex.css"
+    />
+    <link rel="stylesheet" type="text/css" href="fullpage.css" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+     new fullpage('#fullpage', {
+    //options here
+    autoScrolling:true,
+    scrollHorizontally: true
+});
+    </script>
+    <script src="vendors/easings.min.js"></script>
+
+    <script type="text/javascript" src="fullpage.js"></script>
+  </body>
+</html>

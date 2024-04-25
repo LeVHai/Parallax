@@ -1,0 +1,21 @@
+.full-page-scroll-container {
+  height: 100vh; /* Chiều cao bằng viewport */
+  overflow: hidden;
+}
+
+.section {
+  height: 100vh; /* Chiều cao phần tử */
+  width: 100%; /* Chiều rộng phần tử */
+  
+  transition: transform 0.8s ease; /* Chuyển đổi mượt mà */
+}
+
+.section.active {
+  transform: translateY(0); /* Hiệu ứng trượt lên */
+}
+.section.active1 {
+  transform: translateY(-100vh); /* Hiệu ứng trượt lên */
+}
+.section.active2 {
+  transform: translateY(-200vh); /* Hiệu ứng trượt lên */
+}
